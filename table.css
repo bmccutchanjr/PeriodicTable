@@ -1,0 +1,42 @@
+*
+{   box-sizing: border-box;
+}
+
+:root
+{
+    --page-width: 100%;
+}
+
+body,
+html
+{
+    height: 100%;
+        min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper
+{
+    background: rgba(255,0,0,0.5);
+    height: 100%;
+        min-height: 100%;
+    margin: 0px;
+        margin-bottom: -40px;
+    width: var(--page-width);
+}
+
+.push
+{
+    background: rgba(0,255,0,0.5);
+    height: 40px;
+}
+
+footer
+{
+    background: rgba(0,0,255,0.5);
+    height: 30px;
+    margin: 0px;
+        margin-top: 10px;
+    width: var(--page-width);
+}
